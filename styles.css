@@ -1,6 +1,6 @@
 .container {  display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 3fr 3fr 3fr;
+    grid-template-rows: 0.5fr 3fr 3fr 3fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -14,19 +14,17 @@
     justify-self: center;
     grid-area: nav-container;
     position: sticky;
+    background-color: lightslategray;
     top: 0;
     z-index: 1;
   }
   
   .datosPersonales { grid-area: datosPersonales; 
-    z-index: 2;
     }
   
   .experiencia { grid-area: experiencia; 
-    z-index: 3;
     }
   
   .habilidades { grid-area: habilidades; 
-    z-index: 4;
     }
   
