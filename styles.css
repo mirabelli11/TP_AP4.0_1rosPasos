@@ -1,3 +1,7 @@
+p {
+  margin-left: 5px;
+}
+
 .container {  display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 3fr 3fr 3fr;
@@ -18,7 +22,13 @@
     top: 0;
     z-index: 1;
   }
-  
+  .fotoPerfil{
+    float: left;
+    width: 128px;
+    height: 128px;
+    padding: 5px;
+    border: 1px solid blue;    
+  }
   .datosPersonales { grid-area: datosPersonales; 
     }
   
