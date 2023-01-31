@@ -5,13 +5,32 @@
 }
 
 h1 {
-  margin: 1px 1px 1px 1px;
+  margin: 3px 3px 3px 3px;
+  border: 1px solid #3C2A21;    
+  padding: 1px 1px 1px 1px;
+}
+
+h3 {
+  margin: 3px 3px 3px 3px;
   border: 1px solid #3C2A21;    
   padding: 1px 1px 1px 1px;
 }
 
 p {
-  margin-left: 5px;
+  margin: 3px 3px 3px 3px;
+  border: 1px solid #3C2A21;    
+  padding: 1px 1px 1px 1px;
+}
+
+ul {
+  margin: 3px 3px 3px 3px;
+  border: 1px solid #3C2A21;    
+  padding: 1px 1px 1px 1px;
+}
+li {
+  margin: 3px 3px 3px 25px;
+  border: 0px solid #3C2A21;    
+  padding: 1px 1px 1px 1px;
 }
 
 .container {  display: grid;
@@ -24,6 +43,7 @@ p {
       "datosPersonales"
       "experiencia"
       "habilidades";
+    height: fit-content;
   }
   
   .nav-container {  
@@ -31,22 +51,38 @@ p {
     grid-area: nav-container;
     position: sticky;
     background-color: #D5CEA3;
-    margin: 1px 1px 1px 1px;
+    margin: 3px 3px 3px 3px;
     border: 1px solid #3C2A21;    
     padding: 1px 1px 1px 1px;
     top: 0;
     z-index: 1;
+    height: fit-content;
   }
-  .datosPersonales { grid-area: datosPersonales; 
+  .datosPersonales { 
+    grid-area: datosPersonales; 
     background-color: #D5CEA3;
+    margin: 3px 3px 3px 3px;
+    border: 1px solid #3C2A21;    
+    padding: 60px 1px 1px 1px;
+    height: fit-content;
     }
   
-  .experiencia { grid-area: experiencia; 
+  .experiencia { 
+    grid-area: experiencia; 
     background-color: #D5CEA3;
+    margin: 3px 3px 3px 3px;
+    border: 1px solid #3C2A21;    
+    padding: 60px 1px 1px 1px;
+    height: fit-content;
     }
   
-  .habilidades { grid-area: habilidades;
+  .habilidades { 
+    grid-area: habilidades;
     background-color: #D5CEA3; 
+    margin: 3px 3px 3px 3px;
+    border: 1px solid #3C2A21;    
+    padding: 60px 1px 1px 1px;
+    height: fit-content;
     }
 
   .icon-border {
@@ -60,7 +96,16 @@ p {
     width: 128px;
     height: 128px;
     padding: 5px;
-    margin: 10px;
+    margin: 1px 1px 1px 1px;
     border: 1px solid #3C2A21;    
+  }
+  #TareasABC{
+    display: none;
+  }
+  #TareasXYZ{
+    display: none;
+  }
+  #Tareas123{
+    display: none;
   }
   

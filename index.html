@@ -16,24 +16,28 @@
     <div class="container" id="inicio">
         <div class="nav-container">
             <nav>
-                <h1>Antonio Lopez - CV</h1>
-                <a href="#inicio">Inicio</a>
-                <a href="#datosPersonales">Datos Personales</a>
-                <a href="#experiencia">Experiencia laboral</a>
-                <a href="#habilidades">Habilidades</a>
-              </nav>
+                <h1>Antonio Lopez - Curriculum Vitae</h1>
+                <p>
+                    <a href="#inicio">Inicio</a>
+                    <a href="#datosPersonales">Datos Personales</a>
+                    <a href="#experiencia">Experiencia laboral</a>
+                    <a href="#habilidades">Habilidades</a>
+                </p>
+            </nav>
         </div>
         <div class="datosPersonales" id="datosPersonales">
             <h1>Datos personales</h1>
-            <p><em>Mi nombre es Antonio Lopez y vivo en la Ciudad Autónoma de Buenos Aires de la República Argentina. 
-                Soy Ingeniero en sistemas de información y me desempeño como Programador Senior con 20 años de experiencia
-            </em></p> 
             <span><img class="fotoPerfil" src="images/foto128.jpg" alt="Foto ilustrativa"></span>
-            <p><strong>Nombre completo:</strong> Antonio Lopez</p>
-            <p><strong>Nacionalidad:</strong> Argentino</p>
-            <p><strong>Género:</strong> Masculino</p>
-            <p><strong>Fecha de nacimiento:</strong> 15 de enero de 1980</p>
-            <br><h3>Datos de contacto</h3>
+            <p>
+                <em>Mi nombre es Antonio Lopez y vivo en la Ciudad Autónoma de Buenos Aires de la República Argentina. 
+                    Soy Ingeniero en sistemas de información y me desempeño como Programador Senior con 20 años de experiencia
+                </em><br>
+                <strong>Nombre completo:</strong> Antonio Lopez <br>
+                <strong>Nacionalidad:</strong> Argentino <br>
+                <strong>Género:</strong> Masculino <br>
+                <strong>Fecha de nacimiento:</strong> 15 de enero de 1980 <br>
+            <br></p> 
+            <h3>Datos de contacto</h3>
             <ul>
               <li><strong>Dirección:</strong> Calle Falsa 123, CABA, Argentina</li>
               <li><strong>Teléfono Celular:</strong> +54 9 11 5544 3322</li>
@@ -50,35 +54,37 @@
         </div>
         <div class="experiencia" id="experiencia">
             <h1>Experiencia laboral</h1>
+            <h3 id="tituloABC">ABC Tecnología - Buenos Aires, Argentina
+                <i class="fa-solid fa-arrow-turn-down icon-border" id="verMasABC" title="Más información"></i></h3>
             <p>                
-                <h3>ABC Tecnología - Buenos Aires, Argentina
-                    <i class="fa-solid fa-arrow-turn-down icon-border" title="Más información"></i></h3>
                 Programador Senior <br>
                 Enero de 20XX - Actualidad <br>
             </p>
-            <ul>
+            <ul id="TareasABC">
                 <li>Desarrollo de aplicaciones empresariales para diversas industrias utilizando tecnologías como Java, Python y React.</li>
                 <li>Liderazgo de proyectos con equipos de desarrollo de hasta 5 miembros.</li>
                 <li>Colaboración en la definición de arquitectura y diseño de soluciones tecnológicas.</li>
                 <li>Mentoría de desarrolladores júniors y estudiantes de tecnología.</li>
             </ul>
+            <h3>XYZ Sistemas - Buenos Aires, Argentina
+                <i class="fa-solid fa-arrow-turn-down icon-border" id="verMasXYZ" title="Más información"></i></h3>
             <p>
-                <h3>XYZ Sistemas - Buenos Aires, Argentina</h3>
                 Programador Senior<br>
                 Agosto de 20XX - Diciembre de 20XX<br>
             </p>    
-            <ul>
+            <ul id="TareasXYZ">
                 <li>Desarrollo de sistemas de gestión para pequeñas y medianas empresas.</li>
                 <li>Implementación de integraciones con otras aplicaciones empresariales.</li>
                 <li>Optimización de procesos de negocio mediante la automatización de tareas repetitivas.</li>
                 <li>Participación en el diseño y mejora de la experiencia de usuario de los sistemas desarrollados.</li>
             </ul>        
+            <h3>123 Consultores - Buenos Aires, Argentina
+                <i class="fa-solid fa-arrow-turn-down icon-border" id="verMas123" title="Más información"></i></h3>
             <p>
-                <h3>123 Consultores - Buenos Aires, Argentina</h3>
                 Programador<br>
                 Enero de 20XX - Julio de 20XX<br>
             </p>
-            <ul>
+            <ul id="Tareas123">
                 <li>Desarrollo de soluciones personalizadas para clientes de diversos sectores.</li>
                 <li>Mantenimiento y actualización de aplicaciones legadas.</li>
                 <li>Participación en el análisis de requerimientos y definición de soluciones tecnológicas.</li>
@@ -96,6 +102,7 @@
                 <li><strong>Habilidades de liderazgo: </strong><br>Experiencia en liderar proyectos y equipos de trabajo, y en la toma de decisiones en situaciones de incertidumbre.</li>
             </ul>
         </div>
-      </div>
+    </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
